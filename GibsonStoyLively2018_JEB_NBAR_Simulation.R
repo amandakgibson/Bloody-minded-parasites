@@ -17,7 +17,7 @@ binomnbar<- function(bu,alpha,beta,rho){
   # rho = temporal autocorrelation coefficient, rho<0, rho>=-1
   
   # NUMBER OF INFECTED OFFSPRING
-  # The number of offspring made by infected females (bi) is some fraction that made by uninfected females
+  # The number of offspring made by infected females (bi) is some fraction of that made by uninfected females
   # The ratio bi/bu is temporally stochastic and is drawn from a beta distribution
   # The beta distribution is defined by alpha, beta, and rho
   
@@ -47,7 +47,7 @@ binomnbar<- function(bu,alpha,beta,rho){
   # probability of successfully having a baby in 10 tries is 100% per try 
   
   # OTHER PARAMETERS
-  # Reproduction is density dependent: au and ai tell us to the degree to which offspring number is sensitive to population density
+  # Reproduction is density dependent: au and ai tell us the degree to which offspring number is sensitive to population density
   # you'll see later that the ultimate number of offspring (Wu and Wi) is the result of bu,bi and au,ai and N
   au<-0.0001
   ai<-0.0001
