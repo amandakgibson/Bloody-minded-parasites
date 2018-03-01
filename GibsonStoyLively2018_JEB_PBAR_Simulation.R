@@ -4,7 +4,7 @@
 # Addition of variation in parasite virulence
 # via variable birth rate of infected individuals
 
-# This is the PBAR simulation, tto be used in cases of 0 autocorrelation (rho=0) or positive (rho>0)
+# This is the PBAR simulation, to be used in cases of 0 autocorrelation (rho=0) or positive (rho>0)
 # PBAR from McKenzie 1985 Management Science 31
 
 binompbar<- function(bu,alpha,beta,rho){ 
